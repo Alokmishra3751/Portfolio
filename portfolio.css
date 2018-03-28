@@ -1,0 +1,363 @@
+body{
+	margin: 0;
+	padding:0;
+	background-color:orange;
+}
+
+.navbar{
+	top:0;
+	width: 100%;
+	height:80px;
+	position: fixed;
+	border:none;
+}
+#top_bar{
+	width: 100%;
+	height:85px;
+	border:none;
+	background-color: #2A2C34   ;
+	top:0;
+	position: fixed;
+	box-shadow: 0px 2px 10px .3px rgba(0,0,0,0.6);
+	animation:bounceInDown .8s ease-in;
+
+}
+.Menus {
+	width:1000px;
+	height:70px;
+	background-color:;
+	padding:10px 20px;
+	float: right;
+	margin-top:-110px;
+	margin-right:20px;
+
+}
+.Menus ul li a{
+	width: 180px;
+	height:50px;
+	color:white;
+	margin-left:10px;
+	font-size:17px;
+	background-color:#9D5D05;
+	border:none;
+	transition: background-color .7s ease;
+}
+.Menus a:hover{
+	width: 180px;
+	height:50px;
+	background-color: white;
+	color:black;
+	transition: background-color .7s ease;
+	border-bottom: 1px solid #9D5D05;
+
+}
+
+.heading{
+	color:#fff;
+	margin-left: 10px;
+	font-family: sans-serif;
+	width: 200px;
+	height:50px;
+	padding:5px 5px;
+	margin-bottom:50px;
+	background-color:;
+	text-align: center;
+	border-bottom: 1px solid white;
+}
+
+
+#cover_col{
+	width:90%;
+	height:350px;
+	background-color: #80818A  ;
+	margin-left:55px;
+	padding-bottom:50px;
+	margin-top:100px;
+	border-radius:2px;
+	animation: slideInLeft 3s ease-in;
+	box-shadow: 0px 3px 10px .5px rgba(0,0,0,0.5);
+
+}
+.my_img{
+	width:250px;
+	height:250px;
+	border-radius: 50%;
+	box-shadow: 1px 5px 15px .1px rgba(0,0,0,0.7);
+	padding:2px 2px;
+	margin-left:200px;
+	margin-top:50px;
+	background-color:#9D5D05;
+
+}
+
+.lines{
+	width: 500px;
+	height:250px;
+	font-size:20px;
+	color:#520a0a;
+	float: right;
+	margin-top:20px;
+	margin-right:150px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.E_mail{
+	font-size: 20px;
+	color:#520a0a;
+	text-decoration: none;
+	margin-left:50px;
+	margin-top:10px;
+}
+.bar span{
+	float: left;
+	margin-top:5px;
+	color:#222;
+}
+.my_name ,.line1,.line2{
+	margin-left:50px;
+	margin-top:5px;
+
+}
+.bar{
+	width: 100%;
+	height:80px;
+	border:1px solid #222;
+	padding:10px 15px;
+	background-color: white;
+	border-radius:2px;
+	margin-top:10px;
+	box-shadow: 0px 1px 15px .3px rgba(0,0,0,0.6);
+}
+
+.email{
+	color:blue;
+	text-decoration: underline;
+	margin-left:20px;
+}
+#Aboutme_col{
+	width:90%;
+	height:350px;
+	background-color:;
+	border-bottom:2px solid #222;
+	margin-left:55px;
+	padding:5px 10px;
+	margin-top:20px;
+	animation: fadeInLeft 5s ease-in;
+
+}
+.about_me{
+	color:#222;
+	margin-left:20px;
+	font-weight: bold;
+	font-family: Tahoma, Geneva, sans-serif;
+	border-bottom: 2px solid black;
+}
+.aboutme_col2{
+	width:700px;
+	height:200px;
+	background-color:;
+	margin-left:20px;
+	margin-top:30px;
+	padding:5px 5px ;
+}
+.aboutme_col2 h3{
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#222;
+	text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+.aboutme_col2 p{
+	margin-top:20px;
+	font-family: Tahoma, Geneva, sans-serif;
+	word-spacing:5px;
+}
+
+.hobbies_col{
+	width:250px;
+	height:250px;
+	float: right;
+	background-color:#9D5D05;
+	margin-top:-220px;
+	border-radius:50%;
+	border:3px solid #222;
+	box-shadow: 1px 8px 10px .4px rgba(0,0,0,0.7);
+	padding:10px 10px;
+	animation: rotateIn 5s ease-in;
+}
+.hobbies_col img{
+	width: 40px;
+	height: 40px;
+	margin-left:22px;
+	margin-top:25px;
+
+}
+.hobbies_col h4{
+	margin-left:50px;
+	margin-top:20px;
+	color:#222;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+#Education_col{
+	width: 90%;
+	height:700px;
+	background-color:;
+	margin-top:20px;
+	margin-left: 55px;
+	padding:5px 5px;
+	border-radius: 5px;
+	display: none;
+}
+.edu_text{
+	border-bottom: 2px solid black;
+	font-family:Tahoma,Geneva,sans-serif;
+	color:black;
+	font-weight: bold;
+	margin-left: 10px;
+	padding-bottom: 5px;
+}
+/*   schoooool_column*/
+
+.grad_col{
+	width: 100%;
+	height: 550px;
+	background-color:;
+	padding:10px 5px;
+
+}
+.grad_col legend{
+	width:280px;
+	height:35px;
+	color:white;
+	background-color:#9D5D05;
+	padding:0px 10px;
+	font-size: 19px;
+	border:1px solid white;
+	margin-left:30px;
+	text-shadow: .5px .5px 1px rgba(0,0,0,0.7);
+	font-family: Tahoma,Geneva,sans-serif;
+	box-shadow: 0px 5px 10px .3px rgba(0,0,0,0.7);
+	text-align: center;
+}
+
+.grad_col  fieldset{
+	height:500px;
+	width:80%;
+	margin-left:100px;
+	padding:20px 5px;
+	border-radius:2px;
+	background-color: #fff;
+	animation:slideInLeft 1s ease-in;
+	box-shadow: 1px 3px 10px .5px rgba(0,0,0,0.7);
+
+}
+.grad_col h5{
+	font-family: Tahoma,Geneva,sans-serif;
+	font-size:25px;
+	color:black;
+	width:500px;
+	padding-bottom:10px;
+	margin-top:-10px;
+	border-bottom: 2px solid black;
+	margin-left:100px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
+
+
+}
+.Scl_img_btn{
+	width: 120px;
+	height: 70px;
+	background-color:black;
+	border:none;
+	float: right;
+	padding:3px 2px;
+	margin-top:-50px;
+	margin-right:10px;
+	border-radius:5px;
+	box-shadow:0px 5px 10px .5px rgba(0,0,0,0.5);
+
+
+}
+.scl_img{
+	height:65px;
+	width:110px;
+}
+.scl_img:hover{
+	opacity: .5;
+}
+
+#myModal{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-color: rgba(79,76,71,0.8);
+	display:none;
+}
+
+.img_modal{
+	width: 750px;
+	height:320px;
+	padding:10px 15px;
+	background-color:white;
+	margin-left:320px;
+	margin-top:70px;
+	position: fixed;
+	border-radius: 5px;
+	display: none;
+
+}
+
+.clg_img{
+	width: 720px;
+	height:300px;
+	box-shadow: 0px 5px 10px .3px rgba(0,0,0,0.5);
+
+}
+.edu_col{
+	width: 700px;
+	height:200px;
+	background-color:;
+	margin-left: 50px;
+	padding:5px 10px;
+}
+.edu_col_lines{
+	width:700px;
+	height: 50px;
+	padding:10px 15px;
+	background-color:#9D5D05;
+	margin-top:20px;
+	margin-left: 50px;
+	color:#222;
+	border-radius:2px;
+	box-shadow: 0px 5px 10px .5px rgba(0,0,0,0.7);
+	display: block;
+	font-family: helvetica ,sans-serif;
+
+}
+.edu_col_lines p{
+	float: right;
+	color:#fff;
+	font-weight: bold;
+}
+
+.item {
+            background-color:#211F1B;
+            text-align: center;
+            height:400px;
+            padding:25px 10px;
+            margin-bottom:20px;
+        }
+#DemoCarousel{
+ 	animation:fadeIn .8s ease-in;
+ }
+.carousel-caption{
+	width: 500px;
+	height: 400px;
+	margin-left:150px;
+	background-color:;
+}
+.carousel-caption img{
+	width: 300px;
+	height: 300px;
+	margin-top:50px;
+
+
+}
